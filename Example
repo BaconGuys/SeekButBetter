@@ -1,0 +1,13 @@
+local EntitySpawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/BaconGuys/SeekButBetter/main/code"))()
+local Configuration = {
+        SeekModel = 8907590644, -- model here
+    SeekStopRoom = "20",
+    Kill = false-- maybe works
+    Guiding_light_message = "message","Here","I exist"
+    KillRange = 4 -- magnitude length to kill
+    EntityDeathRange = "Seek"
+    BlobModel = "https://github.com/MuhXd/Models/blob/main/Seekmoving.rbxm?raw=true" -- change to model number (support github)
+    YourWalkingSpeed = 23 -- change to speed
+    }
+
+EntitySpawner:Spawn(SeekModel, Configuration)
